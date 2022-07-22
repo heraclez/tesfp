@@ -1,0 +1,306 @@
+ERROR - 2022-05-23 12:09:25 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-05-23 12:09:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\laragon\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\laragon\www\ci\app\Controllers\User.php(12): CodeIgniter\BaseModel->findAll()
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 12:12:20 --> Undefined variable $data
+#0 C:\laragon\www\ci\app\Views\user\datauser.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 43)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/datauser', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\User.php(17): view('user/datauser', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 12:15:30 --> Undefined property: mysqli::$nama
+#0 C:\laragon\www\ci\app\Views\user\datauser.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 48)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/datauser', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\User.php(17): view('user/datauser', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 12:15:50 --> Undefined property: mysqli::$user_name
+#0 C:\laragon\www\ci\app\Views\user\datauser.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 48)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/datauser', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\User.php(17): view('user/datauser', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 12:17:16 --> Undefined property: mysqli::$user_name
+#0 C:\laragon\www\ci\app\Views\user\datauser.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 49)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/datauser', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\User.php(17): view('user/datauser', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 12:18:48 --> Undefined property: mysqli::$user_name
+#0 C:\laragon\www\ci\app\Views\user\datauser.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 49)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/datauser', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\User.php(17): view('user/datauser', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 12:20:04 --> Cannot use object of type mysqli as array
+#0 C:\laragon\www\ci\system\View\View.php(210): include()
+#1 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/datauser', Array, true)
+#3 C:\laragon\www\ci\app\Controllers\User.php(17): view('user/datauser', Array)
+#4 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->index()
+#5 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-23 12:21:28 --> Call to undefined function var_dumo()
+#0 C:\laragon\www\ci\system\View\View.php(210): include()
+#1 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/datauser', Array, true)
+#3 C:\laragon\www\ci\app\Controllers\User.php(17): view('user/datauser', Array)
+#4 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->index()
+#5 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-23 12:22:56 --> syntax error, unexpected token ")"
+#0 C:\laragon\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user')
+#1 C:\laragon\www\ci\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user')
+#2 C:\laragon\www\ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 12:48:30 --> Undefined variable $header
+#0 C:\laragon\www\ci\app\Controllers\User.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 23)
+#1 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->tambahuser()
+#2 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 13:43:31 --> Undefined variable $tipe
+#0 C:\laragon\www\ci\app\Controllers\User.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 41)
+#1 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->insertuser()
+#2 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-23 14:28:44 --> Column 'user_name' cannot be null
+ERROR - 2022-05-23 14:30:40 --> Column 'user_name' cannot be null
+ERROR - 2022-05-23 14:35:09 --> Column 'user_name' cannot be null
+CRITICAL - 2022-05-23 14:36:37 --> Call to undefined method App\Controllers\User::initController()
+#0 C:\laragon\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#1 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+ERROR - 2022-05-23 15:00:08 --> Column 'user_name' cannot be null
+ERROR - 2022-05-23 15:02:27 --> Column 'user_name' cannot be null
+ERROR - 2022-05-23 15:02:48 --> Column 'user_name' cannot be null
+CRITICAL - 2022-05-23 15:03:41 --> Allowed fields must be specified for model: App\Models\userModel
+#0 C:\laragon\www\ci\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\user...')
+#1 C:\laragon\www\ci\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laragon\www\ci\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\laragon\www\ci\app\Controllers\User.php(42): CodeIgniter\Model->insert(Array)
+#4 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->insertuser()
+#5 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-23 15:04:15 --> Column 'user_name' cannot be null
+ERROR - 2022-05-23 15:06:47 --> Column 'user_name' cannot be null
+ERROR - 2022-05-23 15:06:59 --> Column 'user_name' cannot be null
+ERROR - 2022-05-23 15:19:07 --> Column 'user_name' cannot be null
+CRITICAL - 2022-05-23 15:43:25 --> syntax error, unexpected identifier "Data"
+#0 C:\laragon\www\ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\ci\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\ci\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-23 16:11:45 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-05-23 16:11:45 --> Call to a member function getFirstRow() on bool
+#0 C:\laragon\www\ci\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\laragon\www\ci\app\Controllers\User.php(60): CodeIgniter\BaseModel->first()
+#2 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->viewUser('12', 'edit')
+#3 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-23 16:12:48 --> Cannot use object of type stdClass as array
+#0 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->viewUser('12', 'edit')
+#1 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 16:13:08 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\laragon\www\ci\app\Controllers\User.php on line 67
+#0 C:\laragon\www\ci\app\Controllers\User.php(67): view('edit-form', Object(stdClass))
+#1 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->viewUser('12', 'edit')
+#2 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 16:14:25 --> Invalid file: edit-form.php
+#0 C:\laragon\www\ci\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit-form.php')
+#1 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('edit-form', Array, true)
+#2 C:\laragon\www\ci\app\Controllers\User.php(65): view('edit-form', Array)
+#3 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->viewUser('12', 'edit')
+#4 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 16:15:09 --> Undefined variable $header
+#0 C:\laragon\www\ci\app\Controllers\User.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 65)
+#1 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->viewUser('12', 'edit')
+#2 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 16:16:29 --> Undefined variable $data
+#0 C:\laragon\www\ci\app\Views\user\edit-form.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 35)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/edit-form', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\User.php(68): view('user/edit-form', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->viewUser('12', 'edit')
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 16:17:07 --> Attempt to read property "user_name" on array
+#0 C:\laragon\www\ci\app\Views\user\edit-form.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 35)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/edit-form', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\User.php(68): view('user/edit-form', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->viewUser('12', 'edit')
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 16:17:24 --> Undefined array key "user_name"
+#0 C:\laragon\www\ci\app\Views\user\edit-form.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 35)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/edit-form', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\User.php(68): view('user/edit-form', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->viewUser('12', 'edit')
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 16:19:19 --> Undefined property: stdClass::$nama
+#0 C:\laragon\www\ci\app\Views\user\edit-form.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 42)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/edit-form', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\User.php(68): view('user/edit-form', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->viewUser('12', 'edit')
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 16:59:18 --> syntax error, unexpected token "\", expecting "function" or "const"
+#0 C:\laragon\www\ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\ci\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\ci\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 16:59:42 --> There is no data to update.
+#0 C:\laragon\www\ci\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\ci\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\laragon\www\ci\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\laragon\www\ci\app\Controllers\User.php(69): CodeIgniter\Model->update(Array)
+#4 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->updateuser()
+#5 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-23 17:40:17 --> There is no data to update.
+#0 C:\laragon\www\ci\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\ci\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\laragon\www\ci\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\laragon\www\ci\app\Controllers\User.php(66): CodeIgniter\Model->update(Array)
+#4 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->updateuser()
+#5 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-23 17:42:38 --> syntax error, unexpected token "if"
+#0 C:\laragon\www\ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\ci\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\ci\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 17:48:20 --> syntax error, unexpected token "=", expecting ")"
+#0 C:\laragon\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user')
+#1 C:\laragon\www\ci\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user')
+#2 C:\laragon\www\ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 17:48:37 --> Attempt to read property "user_name" on null
+#0 C:\laragon\www\ci\app\Views\user\datauser.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 52)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/datauser', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\User.php(17): view('user/datauser', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 17:49:17 --> Attempt to read property "user_name" on null
+#0 C:\laragon\www\ci\app\Views\user\datauser.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 52)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/datauser', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\User.php(17): view('user/datauser', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 17:50:15 --> Undefined property: mysqli::$user_name
+#0 C:\laragon\www\ci\app\Views\user\datauser.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 52)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/datauser', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\User.php(17): view('user/datauser', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 17:55:26 --> Cannot redeclare App\Controllers\User::updateuser()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,24 @@
+CRITICAL - 2022-04-25 10:10:01 --> Class "App\Controllers\UserDatatable" not found
+#0 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->ajaxList()
+#1 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 10:11:04 --> Class "App\Controllers\UserDatatable" not found
+#0 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->ajaxList()
+#1 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 11:00:57 --> Class "App\Controllers\UserDatatable" not found
+#0 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->ajaxList()
+#1 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 12:23:26 --> Class "App\Controllers\UserDatatable" not found
+#0 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->ajaxList()
+#1 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

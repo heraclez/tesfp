@@ -1,0 +1,675 @@
+CRITICAL - 2022-07-21 01:38:30 --> Invalid file: partials/side-menu.php
+#0 C:\laragon\www\testprogram\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/side-m...')
+#1 C:\laragon\www\testprogram\system\Common.php(1089): CodeIgniter\View\View->render('partials/side-m...', Array, true)
+#2 C:\laragon\www\testprogram\app\Controllers\Dashboard.php(10): view('partials/side-m...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-21 01:39:15 --> Error connecting to the database: Unknown database 'test_interview'
+CRITICAL - 2022-07-21 01:39:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'test_interview'
+#0 C:\laragon\www\testprogram\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\testprogram\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#2 C:\laragon\www\testprogram\app\Controllers\Produk.php(12): CodeIgniter\Model->__call('query', Array)
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-21 01:39:18 --> Error connecting to the database: Unknown database 'test_interview'
+CRITICAL - 2022-07-21 01:39:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'test_interview'
+#0 C:\laragon\www\testprogram\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\testprogram\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#2 C:\laragon\www\testprogram\app\Controllers\Produk.php(12): CodeIgniter\Model->__call('query', Array)
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-21 01:39:57 --> Unknown column 'flag' in 'where clause'
+CRITICAL - 2022-07-21 01:39:57 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-21 01:40:10 --> Invalid file: produk/dataproduk.php
+#0 C:\laragon\www\testprogram\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produk/dataprod...')
+#1 C:\laragon\www\testprogram\system\Common.php(1089): CodeIgniter\View\View->render('produk/dataprod...', Array, true)
+#2 C:\laragon\www\testprogram\app\Controllers\Produk.php(16): view('produk/dataprod...', Array)
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 01:40:40 --> Undefined variable $Uploadimg
+#0 C:\laragon\www\testprogram\app\Views\produk\dataproduk.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 48)
+#1 C:\laragon\www\testprogram\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\testprogram\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\testprogram\system\Common.php(1089): CodeIgniter\View\View->render('produk/dataprod...', Array, true)
+#4 C:\laragon\www\testprogram\app\Controllers\Produk.php(16): view('produk/dataprod...', Array)
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-21 01:55:10 --> Table 'tes_interview.item_model' doesn't exist
+CRITICAL - 2022-07-21 01:55:10 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Uploadimg->tambahUploadimg()
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploadimg))
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-07-21 02:02:08 --> Table 'tes_interview.item_model' doesn't exist
+CRITICAL - 2022-07-21 02:02:08 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Uploadimg->tambahUploadimg()
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploadimg))
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-07-21 13:28:15 --> Table 'tes_interview.item_model' doesn't exist
+CRITICAL - 2022-07-21 13:28:15 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Uploadimg->tambahUploadimg()
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploadimg))
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-21 14:23:50 --> Undefined variable $header
+#0 C:\laragon\www\testprogram\app\Views\produk\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 5)
+#1 C:\laragon\www\testprogram\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\testprogram\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\testprogram\system\Common.php(1089): CodeIgniter\View\View->render('produk/form', Array, true)
+#4 C:\laragon\www\testprogram\app\Controllers\Produk.php(25): view('produk/form')
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->tambahproduk()
+#6 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-21 14:56:30 --> Undefined property: stdClass::$produk_name
+#0 C:\laragon\www\testprogram\app\Views\produk\dataproduk.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 49)
+#1 C:\laragon\www\testprogram\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\testprogram\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\testprogram\system\Common.php(1089): CodeIgniter\View\View->render('produk/dataprod...', Array, true)
+#4 C:\laragon\www\testprogram\app\Controllers\Produk.php(16): view('produk/dataprod...', Array)
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#6 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-21 15:01:05 --> Unknown column 'produk_id' in 'where clause'
+CRITICAL - 2022-07-21 15:01:05 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\testprogram\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(92): CodeIgniter\BaseModel->find()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->viewproduk('1')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 15:06:57 --> Undefined variable $data
+#0 C:\laragon\www\testprogram\app\Views\produk\edit-form.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 10)
+#1 C:\laragon\www\testprogram\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\testprogram\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\testprogram\system\Common.php(1089): CodeIgniter\View\View->render('produk/edit-for...', Array, true)
+#4 C:\laragon\www\testprogram\app\Controllers\Produk.php(102): view('produk/edit-for...', Array)
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->viewproduk('1')
+#6 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-21 15:33:38 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in C:\laragon\www\testprogram\app\Controllers\Produk.php on line 79
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(79): CodeIgniter\BaseModel->delete('1', Array)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('1')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 15:39:04 --> syntax error, unexpected double-quoted string ",", expecting "," or ";"
+#0 C:\laragon\www\testprogram\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\testprogram\system\Common.php(1089): CodeIgniter\View\View->render('partials/footer', Array, true)
+#2 C:\laragon\www\testprogram\app\Controllers\Produk.php(17): view('partials/footer')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 15:48:14 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in C:\laragon\www\testprogram\app\Controllers\Produk.php on line 86
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(86): CodeIgniter\BaseModel->delete('1', Array)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('1')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 15:48:22 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in C:\laragon\www\testprogram\app\Controllers\Produk.php on line 86
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(86): CodeIgniter\BaseModel->delete('1', Array)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('1')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 15:52:10 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in C:\laragon\www\testprogram\app\Controllers\Produk.php on line 86
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(86): CodeIgniter\BaseModel->delete('1', Array)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('1')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 15:54:09 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in C:\laragon\www\testprogram\app\Controllers\Produk.php on line 86
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(86): CodeIgniter\BaseModel->delete('1', Array)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('1')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 15:56:44 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in C:\laragon\www\testprogram\app\Controllers\Produk.php on line 86
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(86): CodeIgniter\BaseModel->delete('1', Array)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('1')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 15:58:32 --> Class "App\Filters\Cors" not found
+#0 C:\laragon\www\testprogram\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('produk', 'before')
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-21 16:00:57 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in C:\laragon\www\testprogram\app\Controllers\Produk.php on line 86
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(86): CodeIgniter\BaseModel->delete('1', Array)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('1')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 16:01:11 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in C:\laragon\www\testprogram\app\Controllers\Produk.php on line 86
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(86): CodeIgniter\BaseModel->delete('1', Array)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('1')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 16:03:03 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in C:\laragon\www\testprogram\app\Controllers\Produk.php on line 86
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(86): CodeIgniter\BaseModel->delete('1', Array)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('1')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 16:07:23 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in C:\laragon\www\testprogram\app\Controllers\Produk.php on line 86
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(86): CodeIgniter\BaseModel->delete('1', Array)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('1')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-21 16:09:00 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-07-21 16:09:00 --> Unknown column 'id' in 'where clause'
+#0 C:\laragon\www\testprogram\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\laragon\www\testprogram\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\laragon\www\testprogram\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\laragon\www\testprogram\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\laragon\www\testprogram\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\testprogram\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\testprogram\app\Controllers\Produk.php(86): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('1')
+#8 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#9 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-21 16:11:03 --> Call to undefined method App\Controllers\Produk::respondDeleted()
+#0 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('1')
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-21 17:42:50 --> Call to undefined function to_idr()
+#0 C:\laragon\www\testprogram\system\View\View.php(210): include()
+#1 C:\laragon\www\testprogram\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\testprogram\system\Common.php(1089): CodeIgniter\View\View->render('produk/dataprod...', Array, true)
+#3 C:\laragon\www\testprogram\app\Controllers\Produk.php(23): view('produk/dataprod...', Array)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#6 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-21 17:53:25 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 17:53:42 --> syntax error, unexpected token "}"
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 17:53:51 --> file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 123)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(123): file_get_contents('https://testpro...')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 17:55:05 --> file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 123)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(123): file_get_contents('https://testpro...')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 17:56:51 --> failed loading cafile stream: `/path/to/bundle/cacert.pem'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'failed loading ...', 'C:\\laragon\\www\\...', 130)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(130): file_get_contents('https://testpro...', false, Resource id #112)
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 17:56:51 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\laragon\www\testprogram\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\laragon\www\testprogram\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\laragon\www\testprogram\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\laragon\www\testprogram\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\laragon\www\testprogram\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-21 17:57:03 --> failed loading cafile stream: `/path/to/bundle/cacert.pem'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'failed loading ...', 'C:\\laragon\\www\\...', 130)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(130): file_get_contents('https://testpro...', false, Resource id #112)
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 17:57:05 --> failed loading cafile stream: `/path/to/bundle/cacert.pem'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'failed loading ...', 'C:\\laragon\\www\\...', 130)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(130): file_get_contents('https://testpro...', false, Resource id #112)
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 17:57:25 --> failed loading cafile stream: `/path/to/bundle/cacert.pem'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'failed loading ...', 'C:\\laragon\\www\\...', 130)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(130): file_get_contents('https://testpro...', false, Resource id #112)
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 17:57:36 --> failed loading cafile stream: `/path/to/bundle/cacert.pem'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'failed loading ...', 'C:\\laragon\\www\\...', 130)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(130): file_get_contents('https://testpro...', false, Resource id #112)
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 17:57:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\laragon\www\testprogram\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\laragon\www\testprogram\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\laragon\www\testprogram\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\laragon\www\testprogram\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\laragon\www\testprogram\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-21 17:59:02 --> failed loading cafile stream: `/path/to/bundle/cacert.pem'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'failed loading ...', 'C:\\laragon\\www\\...', 130)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(130): file_get_contents('https://testpro...', false, Resource id #112)
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 17:59:07 --> failed loading cafile stream: `/path/to/bundle/cacert.pem'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'failed loading ...', 'C:\\laragon\\www\\...', 130)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(130): file_get_contents('https://testpro...', false, Resource id #112)
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 17:59:07 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\laragon\www\testprogram\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\laragon\www\testprogram\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\laragon\www\testprogram\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\laragon\www\testprogram\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\laragon\www\testprogram\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-21 18:00:56 --> failed loading cafile stream: `/path/to/bundle/cacert.pem'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'failed loading ...', 'C:\\laragon\\www\\...', 130)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(130): file_get_contents('https://testpro...', false, Resource id #112)
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 18:03:55 --> file_get_contents(C:\laragon\www\testprogram\writable\data.json): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 123)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(123): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 18:05:09 --> Undefined variable $WRITEPATH
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 126)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:05:10 --> Undefined variable $WRITEPATH
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 126)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:05:16 --> Undefined variable $WRITEPATH
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 126)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:07:26 --> file_get_contents(C:\laragon\www\testprogram\writable\/tambahan/data.json): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 123)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(123): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 18:07:30 --> file_get_contents(C:\laragon\www\testprogram\writable\/tambahan/data.json): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 123)
+#1 C:\laragon\www\testprogram\app\Controllers\Produk.php(123): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 18:14:10 --> Unclosed '{' on line 8
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 18:14:33 --> Unclosed '{' on line 8
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 18:14:59 --> Attempt to read property "nama_produk" on int
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 127)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:15:06 --> Attempt to read property "nama_produk" on int
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 127)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:18:40 --> Attempt to read property "nama_produk" on int
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 128)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:18:45 --> Attempt to read property "nama_produk" on int
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 128)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:20:16 --> Unclosed '{' on line 8
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 18:21:55 --> syntax error, unexpected token "catch"
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 18:22:28 --> Unclosed '{' on line 8
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 18:24:12 --> Unclosed '{' on line 8
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 18:24:25 --> Unclosed '{' on line 8
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 18:24:38 --> Attempt to read property "nama_produk" on int
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 127)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:24:45 --> Attempt to read property "nama_produk" on int
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 127)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:24:58 --> Attempt to read property "nama_produk" on int
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 127)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:25:16 --> Attempt to read property "nama_produk" on int
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 127)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:25:52 --> foreach() argument must be of type array|object, null given
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\laragon\\www\\...', 125)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:25:58 --> foreach() argument must be of type array|object, null given
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\laragon\\www\\...', 125)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:26:04 --> foreach() argument must be of type array|object, null given
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\laragon\\www\\...', 125)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:26:08 --> foreach() argument must be of type array|object, null given
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\laragon\\www\\...', 125)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:26:39 --> foreach() argument must be of type array|object, null given
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\laragon\\www\\...', 125)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:26:42 --> foreach() argument must be of type array|object, null given
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\laragon\\www\\...', 125)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:30:25 --> Cannot use object of type stdClass as array
+#0 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-21 18:32:34 --> Undefined property: stdClass::$email
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 129)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:33:17 --> Undefined property: stdClass::$email
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 130)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:35:16 --> syntax error, unexpected integer "0", expecting identifier or variable or "{" or "$"
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 18:35:43 --> Attempt to read property "nama_produk" on array
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 127)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:38:32 --> Attempt to read property "data" on array
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 125)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:39:07 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 18:41:14 --> Unmatched '}'
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 18:41:29 --> Undefined array key 30
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 129)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 18:43:54 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 18:44:12 --> Undefined array key 30
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 127)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-21 19:16:47 --> Class "App\Controllers\BaseController" not found
+#0 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\testprogram\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\laragon\www\testprogram\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\testprogram\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-21 19:18:28 --> Undefined array key 30
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 128)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->getData()
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

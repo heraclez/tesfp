@@ -1,0 +1,65 @@
+CRITICAL - 2022-05-24 12:39:47 --> Class "App\Models\UploadimgModel" not found
+#0 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Uploadimg->index()
+#1 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploadimg))
+#2 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-24 12:40:14 --> Cannot declare class App\Controllers\Uploadimg because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-24 12:41:04 --> Undefined property: stdClass::$user_name
+#0 C:\laragon\www\ci\app\Views\uploadimg\dataimg.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 52)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('Uploadimg/datai...', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\Uploadimg.php(25): view('Uploadimg/datai...', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Uploadimg->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploadimg))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 12:42:24 --> Undefined property: stdClass::$image_desc
+#0 C:\laragon\www\ci\app\Views\uploadimg\dataimg.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 53)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('Uploadimg/datai...', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\Uploadimg.php(25): view('Uploadimg/datai...', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Uploadimg->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploadimg))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 12:44:32 --> Undefined property: stdClass::$model_id
+#0 C:\laragon\www\ci\app\Views\uploadimg\dataimg.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 53)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('Uploadimg/datai...', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\Uploadimg.php(25): view('Uploadimg/datai...', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Uploadimg->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploadimg))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 12:45:36 --> Undefined property: stdClass::$image_desc
+#0 C:\laragon\www\ci\app\Views\uploadimg\dataimg.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 54)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('Uploadimg/datai...', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\Uploadimg.php(25): view('Uploadimg/datai...', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Uploadimg->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploadimg))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:40:10 --> Undefined variable $variable
+#0 C:\laragon\www\ci\app\Views\uploadimg\form.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 43)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('Uploadimg/form', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\Uploadimg.php(38): view('Uploadimg/form', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Uploadimg->tambahUploadimg()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploadimg))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-24 19:04:04 --> Column 'user_name' cannot be null

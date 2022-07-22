@@ -1,0 +1,21 @@
+CRITICAL - 2022-07-22 03:37:57 --> Call to undefined method App\Models\ProdukModel::delte
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(84): CodeIgniter\Model->__call('delte', Array)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('32')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-22 03:38:52 --> Call to undefined method App\Models\ProdukModel::delte
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(84): CodeIgniter\Model->__call('delte', Array)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('2')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-22 03:39:06 --> Call to undefined method App\Models\ProdukModel::delte
+#0 C:\laragon\www\testprogram\app\Controllers\Produk.php(84): CodeIgniter\Model->__call('delte', Array)
+#1 C:\laragon\www\testprogram\system\CodeIgniter.php(832): App\Controllers\Produk->deleteproduk('2')
+#2 C:\laragon\www\testprogram\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\laragon\www\testprogram\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\testprogram\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

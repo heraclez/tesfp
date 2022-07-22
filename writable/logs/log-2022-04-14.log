@@ -1,0 +1,11 @@
+CRITICAL - 2022-04-14 13:48:24 --> Undefined variable $header
+#0 C:\laragon\www\ci\app\Views\user\datauser.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 8)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('user/datauser', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\User.php(11): view('user/datauser')
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
